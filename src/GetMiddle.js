@@ -1,3 +1,3 @@
-export default function get_middle() {
-  return "a";
+export default function get_middle(letter) {
+  return letter;
 }
