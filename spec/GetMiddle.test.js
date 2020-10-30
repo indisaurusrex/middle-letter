@@ -10,4 +10,7 @@ describe('get_middle', () => {
   test('returns the middle letter of 3 letters', () => {
     expect(get_middle("aba")).toBe("b")
   })
+  test('returns the middle letter of 4 letters', () => {
+    expect(get_middle("test")).toBe("es")
+  })
 });
